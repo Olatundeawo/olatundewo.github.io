@@ -1,0 +1,157 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.span-conn{
+	color:brown;
+}
+.main {
+    margin-top: 20px;
+}
+
+.main h1{
+	font-family: Roboto slab;
+}
+
+.main p {
+	font-family: josefin slab;
+	color: white;
+}
+
+.features {
+	font-family: unna;
+	font-weight: 500;
+	background: #006666;
+	color: rgb(230, 230, 230)
+}
+
+.features h1 {
+	justify-content: center;
+	text-align: center;
+	font-family: noto serif;
+	color: #000000;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.features h3 {
+	font-weight: 700;
+	color: #dddddd;
+}
+ 
+footer {
+    	position: relative;
+	top: 500px
+ }
+
+.footer {
+	position: absolute;
+}
+
+footer div {
+	background: #000080
+}
+footer p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: open sans;
+
+	color: gray;
+	letter-spacing: 2px;
+	
+}
+.footer-spans {
+	display: grid;
+	grid-template-rows: 10px 10px 10px;
+	gap: 30px;
+}
+.footer-span {
+	font-size: 20px;
+	padding:10px
+}
+
+.about-me {
+	display: grid;
+	grid-template-columns: 150px 400px;
+	gap: 5px;
+	overflow: hidden;
+}
+.about-content p{
+	border-left:5px solid black;
+	height: 200px;
+}
+.about-me img {
+	border-radius: 50%;
+}
+
+.signup {
+	top: 500px;
+}
+
+.signup img {
+	margin-bottom: 20px;
+}
+
+.github {
+	display: flex;
+	font-size: 28px;
+	margin-top: 50px;
+	padding: 20px;
+	font-family: open sarafi;
+	color: purple;
+}
+.github button {
+	border: 1px solid green;
+	padding:10px;
+	text-align: center;
+	justify-content:center;
+	background: green;
+	border-radius: 15px;
+}
