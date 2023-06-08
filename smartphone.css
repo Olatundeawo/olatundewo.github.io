@@ -1,0 +1,17 @@
+.signup {
+	top: 800px;
+}
+
+footer {
+	top: 800px;
+}
+
+.about-me {
+	grid-template-columns: 100px 100px;
+	gap: 10px
+}
+
+.about-image img{
+	width: 100px
+}
+
